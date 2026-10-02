@@ -1,0 +1,1149 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Gelar Refrigeração | Assistência Técnica em Itu e Região</title>
+    <meta name="description" content="Assistência técnica especializada em refrigeração em Itu - SP. Conserto no local sem retirar seu eletrodoméstico! Geladeiras, lava e seca, freezers, adegas e mais.">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                            950: '#082f49',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+        .bg-glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+        }
+        .ice-glow {
+            box-shadow: 0 0 25px -5px rgba(14, 165, 233, 0.25);
+        }
+        .pulse-whatsapp {
+            animation: pulse-green 2s infinite;
+        }
+        @keyframes pulse-green {
+            0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(34, 197, 94, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+        }
+        .snowflake {
+            position: absolute;
+            pointer-events: none;
+            opacity: 0.15;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white bg-slate-50">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-brand-900 via-brand-800 to-sky-900 text-white text-xs md:text-sm py-2 px-4 shadow-inner">
+        <div class="max-w-7xl mx-mx auto flex flex-wrap justify-between items-center gap-2 max-w-7xl mx-auto">
+            <div class="flex items-center gap-4 text-slate-200">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-house-circle-check text-brand-300"></i> Atendimento residencial em Itu e Região</span>
+                <span class="hidden md:inline-flex items-center gap-1.5"><i class="fa-solid fa-clock text-brand-300"></i> Atendimento no local sem retirar o aparelho</span>
+            </div>
+            <div class="flex items-center gap-4 text-xs font-semibold">
+                <a href="tel:15998192331" class="hover:text-brand-300 transition-colors flex items-center gap-1"><i class="fa-solid fa-phone"></i> (15) 99819-2331</a>
+                <span class="bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full border border-emerald-500/30 flex items-center gap-1">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Disponível no Whats
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-glass border-b border-brand-100 transition-all duration-300 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-3 group">
+                <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-brand-600 to-sky-400 flex items-center justify-center text-white shadow-md shadow-brand-500/30 group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-snowflake text-2xl animate-spin-slow"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-brand-950 tracking-tight block leading-tight">BEM GELAR</span>
+                    <span class="text-xs font-semibold text-brand-600 uppercase tracking-wider block">Refrigeração & Assistência</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
+                <a href="#sobre" class="hover:text-brand-600 transition-colors">Sobre Nós</a>
+                <a href="#diferenciais" class="hover:text-brand-600 transition-colors">Diferenciais</a>
+                <a href="#servicos" class="hover:text-brand-600 transition-colors">Eletrodomésticos</a>
+                <a href="#depoimentos" class="hover:text-brand-600 transition-colors">Avaliações (5.0★)</a>
+                <a href="#localizacao" class="hover:text-brand-600 transition-colors">Localização</a>
+            </nav>
+
+            <!-- Header CTA Button -->
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="https://wa.me/5515998192331?text=Olá!%20Encontrei%20o%20site%20da%20Bem%20Gelar%20e%20gostaria%20de%20agendar%20uma%20avaliação%20técnica." 
+                   target="_blank" 
+                   class="bg-brand-600 hover:bg-brand-700 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-brand-600/25 transition-all hover:scale-[1.02] flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Pedir Orçamento</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-toggle" class="md:hidden text-slate-700 hover:text-brand-600 p-2 focus:outline-none" aria-label="Abrir Menu">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3">
+            <a href="#sobre" class="mobile-link block py-2 text-slate-700 font-medium hover:text-brand-600">Sobre Nós</a>
+            <a href="#diferenciais" class="mobile-link block py-2 text-slate-700 font-medium hover:text-brand-600">Diferenciais</a>
+            <a href="#servicos" class="mobile-link block py-2 text-slate-700 font-medium hover:text-brand-600">Eletrodomésticos Atendidos</a>
+            <a href="#depoimentos" class="mobile-link block py-2 text-slate-700 font-medium hover:text-brand-600">Avaliações de Clientes</a>
+            <a href="#localizacao" class="mobile-link block py-2 text-slate-700 font-medium hover:text-brand-600">Endereço & Atendimento</a>
+            <a href="https://wa.me/5515998192331?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita%20técnica." 
+               target="_blank" 
+               class="w-full bg-emerald-500 hover:bg-emerald-600 text-white py-3 rounded-xl font-bold flex items-center justify-center gap-2 shadow-md">
+                <i class="fa-brands fa-whatsapp text-xl"></i> Chamar no WhatsApp agora
+            </a>
+        </div>
+    </header>
+
+    <section class="relative overflow-hidden bg-gradient-to-b from-brand-50 via-sky-50/50 to-slate-50 pt-12 pb-20 lg:pt-20 lg:pb-28">
+        <!-- Decorative Background Elements -->
+        <div class="absolute top-10 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-gradient-to-tr from-brand-200/40 to-sky-300/30 blur-3xl rounded-full -z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Hero Text Column -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    
+                    <!-- Google Rating Badge -->
+                    <div class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full border border-sky-200 shadow-sm text-xs sm:text-sm text-slate-700">
+                        <div class="flex text-amber-400 text-xs gap-0.5">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="font-bold text-slate-900">5.0</span>
+                        <span class="text-slate-400">|</span>
+                        <span class="text-slate-600 font-medium">33 avaliações no Google em Itu - SP</span>
+                    </div>
+
+                    <!-- Main Headline -->
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-950 tracking-tight leading-tight">
+                        Conserto de refrigeração <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-sky-500">no conforto da sua casa</span> sem retirar o eletrodoméstico
+                    </h1>
+
+                    <!-- Paragraph description -->
+                    <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Assistência técnica especializada em <strong class="text-brand-900 font-semibold">geladeiras, máquinas de lavar, lava e seca, freezers, adegas, micro-ondas e cervejeiras</strong>. Executamos o diagnóstico e a manutenção diretamente no local!
+                    </p>
+
+                    <!-- Feature Highlights Pill List -->
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-3 text-xs sm:text-sm font-semibold text-slate-700 pt-2">
+                        <div class="flex items-center gap-2 bg-white/80 px-3 py-1.5 rounded-lg border border-brand-100 shadow-xs">
+                            <i class="fa-solid fa-circle-check text-emerald-500"></i> Atendimento em Residências
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/80 px-3 py-1.5 rounded-lg border border-brand-100 shadow-xs">
+                            <i class="fa-solid fa-truck-ramp-box text-brand-600"></i> Sem Taxa de Remoção
+                        </div>
+                        <div class="flex items-center gap-2 bg-white/80 px-3 py-1.5 rounded-lg border border-brand-100 shadow-xs">
+                            <i class="fa-solid fa-shield-halved text-brand-600"></i> Serviço Confiável & Justo
+                        </div>
+                    </div>
+
+                    <!-- Primary Actions -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20um%20conserto%20para%20meu%20eletrodoméstico.%20Como%20funciona%20a%20avaliação?" 
+                           target="_blank" 
+                           class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-8 py-4 rounded-2xl shadow-xl shadow-emerald-500/25 transition-all hover:scale-[1.02] flex items-center justify-center gap-3 text-base">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Solicitar Visita Técnica</span>
+                        </a>
+
+                        <a href="#servicos" 
+                           class="w-full sm:w-auto bg-white hover:bg-brand-50 text-brand-800 font-semibold px-6 py-4 rounded-2xl border border-brand-200 shadow-sm transition-all text-center flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-screwdriver-wrench text-brand-600"></i>
+                            <span>Ver Eletrodomésticos</span>
+                        </a>
+                    </div>
+
+                    <!-- Location info -->
+                    <p class="text-xs text-slate-500 flex items-center justify-center lg:justify-start gap-1.5 pt-2">
+                        <i class="fa-solid fa-location-dot text-brand-500"></i> Atendimento rápido em Itu e cidades vizinhas
+                    </p>
+                </div>
+
+                <!-- Right Hero Visual Card -->
+                <div class="lg:col-span-5">
+                    <div class="relative bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-brand-100 ice-glow">
+                        
+                        <div class="absolute -top-4 -right-4 bg-brand-600 text-white text-xs font-bold px-4 py-1.5 rounded-full shadow-lg border-2 border-white">
+                            Atendimento Rápido
+                        </div>
+
+                        <div class="text-center pb-6 border-b border-slate-100">
+                            <div class="w-16 h-16 bg-brand-100 text-brand-600 rounded-2xl flex items-center justify-center mx-auto mb-3 text-2xl">
+                                <i class="fa-solid fa-shield-virus"></i>
+                            </div>
+                            <h3 class="text-xl font-extrabold text-slate-900">Avaliação no Local</h3>
+                            <p class="text-xs text-slate-500 mt-1">Sua casa continua limpa e seus aparelhos em segurança</p>
+                        </div>
+
+                        <!-- Card Quick Services List -->
+                        <div class="py-6 space-y-3">
+                            <div class="flex items-center justify-between text-sm p-3 rounded-xl bg-slate-50 hover:bg-brand-50/60 transition-colors">
+                                <span class="flex items-center gap-3 text-slate-700 font-medium">
+                                    <i class="fa-solid fa-temperature-arrow-down text-brand-500"></i> Geladeiras & Freezers
+                                </span>
+                                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded">Conserto no Local</span>
+                            </div>
+
+                            <div class="flex items-center justify-between text-sm p-3 rounded-xl bg-slate-50 hover:bg-brand-50/60 transition-colors">
+                                <span class="flex items-center gap-3 text-slate-700 font-medium">
+                                    <i class="fa-solid fa-jug-detergent text-brand-500"></i> Lava & Seca e Máquinas
+                                </span>
+                                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded">Manutenção Técnica</span>
+                            </div>
+
+                            <div class="flex items-center justify-between text-sm p-3 rounded-xl bg-slate-50 hover:bg-brand-50/60 transition-colors">
+                                <span class="flex items-center gap-3 text-slate-700 font-medium">
+                                    <i class="fa-solid fa-wine-bottle text-brand-500"></i> Cervejeiras, Expositoras & Adegas
+                                </span>
+                                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded">Linha Comercial/Doméstica</span>
+                            </div>
+
+                            <div class="flex items-center justify-between text-sm p-3 rounded-xl bg-slate-50 hover:bg-brand-50/60 transition-colors">
+                                <span class="flex items-center gap-3 text-slate-700 font-medium">
+                                    <i class="fa-solid fa-microchip text-brand-500"></i> Micro-ondas & Refrigeração Geral
+                                </span>
+                                <span class="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded">Diagnóstico Preciso</span>
+                            </div>
+                        </div>
+
+                        <!-- Card Footer Phone CTA -->
+                        <div class="bg-gradient-to-br from-brand-900 to-slate-900 text-white rounded-2xl p-4 text-center">
+                            <span class="text-xs text-brand-200 block mb-1">Dúvidas ou emergências técnicas?</span>
+                            <a href="tel:15998192331" class="text-lg font-bold text-white hover:text-brand-300 transition-colors flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-phone-volume text-brand-400"></i> (15) 99819-2331
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white border-y border-brand-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
+                    <div class="text-3xl font-extrabold text-brand-600 flex items-center justify-center gap-1">
+                        <span>5,0</span>
+                        <div class="flex text-amber-400 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium mt-1">Nota Máxima no Google</p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
+                    <div class="text-3xl font-extrabold text-brand-600">33+</div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium mt-1">Avaliações Positivas</p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
+                    <div class="text-3xl font-extrabold text-emerald-600">100%</div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium mt-1">Serviço Realizado no Local</p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-slate-50/80 border border-slate-100">
+                    <div class="text-3xl font-extrabold text-brand-600">Itu - SP</div>
+                    <p class="text-xs sm:text-sm text-slate-600 font-medium mt-1">& Proximidades</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-20 bg-slate-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- About Image / Graphic Container -->
+                <div class="lg:col-span-5 relative">
+                    <div class="bg-gradient-to-br from-brand-500 to-sky-700 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 opacity-10 text-9xl">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <span class="inline-block bg-white/20 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
+                            Assistência Especializada
+                        </span>
+                        <h3 class="text-2xl sm:text-3xl font-extrabold mb-4">Bem Gelar Refrigeração</h3>
+                        <p class="text-brand-100 text-sm leading-relaxed mb-6">
+                            Nascemos em Itu com um propósito claro: entregar um serviço transparente, rápido e que não cause transtornos ao cliente. Entendemos a importância de uma geladeira ou lavadora no dia a dia da família.
+                        </p>
+
+                        <div class="space-y-3 text-sm font-medium border-t border-white/20 pt-6">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-emerald-300"></i>
+                                </div>
+                                <span>Profissionais altamente qualificados</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-emerald-300"></i>
+                                </div>
+                                <span>Diagnóstico honesto e explicativo</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                                    <i class="fa-solid fa-check text-emerald-300"></i>
+                                </div>
+                                <span>Sem surpresas ou custos escondidos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Text Column -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-block bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Conheça Nossa Proposta
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                        Respeito pelo seu tempo e pelo seu patrimônio
+                    </h2>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        A <strong class="text-brand-900">Bem Gelar Refrigeração</strong> é uma referência em assistência técnica em Itu - SP. Sabendo o quão incômodo é ficar sem geladeira ou ter que transportar eletrodomésticos pesados, desenvolvemos uma metodologia completa para realizar a avaliação e o conserto no próprio imóvel do cliente.
+                    </p>
+                    <p class="text-slate-600 text-base leading-relaxed">
+                        Seja para uma geladeira Frost Free, uma máquina de lavar roupas, uma lava e seca moderna ou uma cervejeira comercial, garantimos agilidade, peças de procedência e atendimento humanizado.
+                    </p>
+
+                    <!-- Feature Box highlight -->
+                    <div class="p-5 rounded-2xl bg-white border border-brand-100 shadow-sm flex items-start gap-4">
+                        <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center shrink-0 text-xl">
+                            <i class="fa-solid fa-truck-fast"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-base">Atendimento no Local</h4>
+                            <p class="text-xs sm:text-sm text-slate-600 mt-1">
+                                O técnico vai até você com as ferramentas necessárias para solucionar o defeito na sua residência ou comércio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="diferenciais" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Por Que Nos Escolher?
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3">
+                    Diferenciais que garantem a sua tranquilidade
+                </h2>
+                <p class="text-slate-600 text-base mt-3">
+                    Buscamos superar as expectativas em cada atendimento em Itu e região.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Differential Card 1 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-house-laptop"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Sem Tirar de Casa</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Você não precisa mover aparelhos pesados nem arriscar amassar ou arranhar na mudança. Efetuamos o conserto diretamente no local.
+                    </p>
+                </div>
+
+                <!-- Differential Card 2 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-comments-dollar"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Avaliação Justa e Transparente</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Explicamos detalhadamente o defeito e qual a solução ideal antes de iniciar qualquer reparo. Honestidade em primeiro lugar.
+                    </p>
+                </div>
+
+                <!-- Differential Card 3 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-user-gear"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Técnicos Qualificados</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Profissionais experientes em diversas marcas e tecnologias de refrigeração para garantir um conserto duradouro e eficaz.
+                    </p>
+                </div>
+
+                <!-- Differential Card 4 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Atendimento Ágil</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Atendemos chamados com agilidade em Itu e arredores para que sua rotina doméstica não fique prejudicada.
+                    </p>
+                </div>
+
+                <!-- Differential Card 5 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-screwdriver"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Multimarcas & Modelos</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Conhecimento técnico avançado para tratar tanto modelos convencionais quanto modelos Inverter de alta tecnologia.
+                    </p>
+                </div>
+
+                <!-- Differential Card 6 -->
+                <div class="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:border-brand-200 hover:shadow-xl transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform shadow-md shadow-brand-500/30">
+                        <i class="fa-solid fa-star text-amber-300"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Aprovado por Clientes</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Nota máxima de 5.0 estrelas nas avaliações do Google, fruto do compromisso contínuo com a satisfação do cliente.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-20 bg-slate-100/70">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Eletrodomésticos Atendidos
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3">
+                    Assistência Completa em Refrigeração e Linha Branca
+                </h2>
+                <p class="text-slate-600 text-base mt-3">
+                    Fazemos manutenção preventiva e corretiva em diversos equipamentos.
+                </p>
+            </div>
+
+            <!-- Grid of Appliance Categories -->
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Service 1: Geladeiras -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-temperature-arrow-down"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Geladeiras & Refrigeradores</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Frost Free, Duplex, Inverse e Inverter</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Geladeira não está gelando a parte inferior</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Troca de borracha de vedação</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Conserto do compressor / motor</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20minha%20geladeira." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar para Geladeira <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: Máquinas de Lavar -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-soap"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Máquinas de Lavar Roupas</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Todas as marcas e capacidades</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Máquina não centrifugando ou soltando água</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Ruídos ou barulhos excessivos</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Troca de placa eletrônica e atuadores</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20minha%20máquina%20de%20lavar." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar para Lavadora <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3: Lava e Seca -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Lava e Seca</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Aparelhos com tecnologia Inverter</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Aparelho não seca a roupa adequadamente</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Erros no painel digital e travamentos</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Limpeza do sistema e manutenção técnica</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20minha%20lava%20e%20seca." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar para Lava e Seca <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4: Freezers Domésticos e Comerciais -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Freezers</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Horizontais e Verticais</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Carga de gás refrigerante</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Reparo de vazamento de fluido elétrico</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Troca de termostato e motor</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20meu%20freezer." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar para Freezer <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5: Expositoras & Cervejeiras -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-beer-mug-empty"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Expositoras & Cervejeiras</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Comércios, Bares e Residências</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Cervejeiras que não atinge temperatura ideal</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Manutenção de expositores verticais</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Calibragem de controladores digitais</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20minha%20cervejeira/expositora." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar para Cervejeira <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6: Adegas e Micro-ondas -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-sky-100 text-brand-600 flex items-center justify-center text-xl mb-4 font-bold">
+                        <i class="fa-solid fa-wine-glass"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900">Adegas Climatizadas & Micro-ondas</h3>
+                    <p class="text-xs text-slate-500 mt-1 mb-4">Cuidado especial com seus equipamentos</p>
+                    <ul class="text-xs text-slate-600 space-y-2 mb-4">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Ajuste de controle térmico de adegas</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Micro-ondas que não esquenta ou faísca</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Reparo em fusíveis e magnetron</li>
+                    </ul>
+                    <a href="https://wa.me/5515998192331?text=Olá!%20Preciso%20de%20conserto%20para%20adega/micro-ondas." target="_blank" class="text-xs font-bold text-brand-600 hover:text-brand-800 flex items-center gap-1">
+                        Solicitar Atendimento <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Callout Note -->
+            <div class="mt-12 bg-gradient-to-r from-brand-900 to-sky-900 rounded-2xl p-6 text-white text-center sm:flex sm:text-left items-center justify-between gap-6 shadow-lg">
+                <div>
+                    <h4 class="text-lg font-bold">Possui outro eletrodoméstico de refrigeração?</h4>
+                    <p class="text-xs sm:text-sm text-brand-200 mt-1">Consultamos a viabilidade para diversos modelos do mercado. Fale com a equipe!</p>
+                </div>
+                <a href="https://wa.me/5515998192331?text=Olá!%20Gostaria%20de%20saber%20se%20atendem%20o%20meu%20aparelho." target="_blank" class="mt-4 sm:mt-0 inline-flex shrink-0 bg-white text-brand-900 font-bold px-6 py-3 rounded-xl hover:bg-brand-50 transition-colors text-sm">
+                    Consultar com Técnico
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Processo Simples
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3">
+                    Como funciona o nosso atendimento
+                </h2>
+                <p class="text-slate-600 text-base mt-3">
+                    Apenas 4 passos fáceis para ter o seu eletrodoméstico funcionando perfeitamente de novo.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
+                
+                <!-- Step 1 -->
+                <div class="text-center relative">
+                    <div class="w-16 h-16 rounded-full bg-brand-100 text-brand-600 font-extrabold text-2xl flex items-center justify-center mx-auto mb-4 border-2 border-brand-200">
+                        1
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Contato no Whats</h3>
+                    <p class="text-xs sm:text-sm text-slate-600">
+                        Você nos manda uma mensagem informando a marca e o problema apresentado pelo aparelho.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="text-center relative">
+                    <div class="w-16 h-16 rounded-full bg-brand-100 text-brand-600 font-extrabold text-2xl flex items-center justify-center mx-auto mb-4 border-2 border-brand-200">
+                        2
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Agendamento</h3>
+                    <p class="text-xs sm:text-sm text-slate-600">
+                        Agendamos a melhor data e horário para a visita do nosso técnico na sua residência.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="text-center relative">
+                    <div class="w-16 h-16 rounded-full bg-brand-100 text-brand-600 font-extrabold text-2xl flex items-center justify-center mx-auto mb-4 border-2 border-brand-200">
+                        3
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Avaliação no Local</h3>
+                    <p class="text-xs sm:text-sm text-slate-600">
+                        O profissional examina o eletrodoméstico no local, sem precisar retirá-lo da sua casa.
+                    </p>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="text-center relative">
+                    <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 font-extrabold text-2xl flex items-center justify-center mx-auto mb-4 border-2 border-emerald-200">
+                        4
+                    </div>
+                    <h3 class="font-bold text-slate-900 text-lg mb-2">Conserto Executado</h3>
+                    <p class="text-xs sm:text-sm text-slate-600">
+                        Com sua aprovação, o conserto é realizado com transparência, agilidade e garantia do serviço.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="py-20 bg-gradient-to-b from-slate-50 to-brand-50/40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 bg-amber-50 text-amber-800 text-xs font-bold px-3 py-1 rounded-full border border-amber-200 mb-3">
+                    <i class="fa-solid fa-star text-amber-500"></i> Avaliações Reais do Google (5,0 / 5,0)
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                    O que nossos clientes dizem sobre nós
+                </h2>
+                <p class="text-slate-600 text-base mt-3">
+                    Transparência e qualidade demonstradas na opinião de quem já utilizou a Bem Gelar Refrigeração.
+                </p>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <!-- Review 1 -->
+                <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-md relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400">6 meses atrás</span>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+                            "Excelentes profissionais qualificados para trabalhar e atender as necessidades dos clientes com base no seu conhecimento profissional"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-brand-500 text-white font-bold flex items-center justify-center text-sm">
+                            TD
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Tayany Di Angeli</h4>
+                            <span class="text-xs text-slate-500">Cliente Google (1 avaliação)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-md relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400">7 meses atrás</span>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+                            "Trabalha super bem, honesta consertou minha geladeira ficou excelente"
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-sm">
+                            MB
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Milena Beatriz</h4>
+                            <span class="text-xs text-slate-500">Cliente Google (1 avaliação)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-md relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex text-amber-400 gap-1 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="text-xs text-slate-400">8 meses atrás</span>
+                        </div>
+                        <p class="text-slate-700 text-sm leading-relaxed italic mb-6">
+                            "Excelente profissional. Avaliou a situação e explicou muito bem. Empresa justa, rápida, confiável e muito bacana."
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-3 pt-4 border-t border-slate-100">
+                        <div class="w-10 h-10 rounded-full bg-sky-600 text-white font-bold flex items-center justify-center text-sm">
+                            ER
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900 text-sm">Ernani Rangel</h4>
+                            <span class="text-xs text-slate-500">Cliente Google (8 avaliações)</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Google Review Direct Badge -->
+            <div class="mt-12 text-center">
+                <a href="https://www.google.com/search?q=Bem+Gelar+refrigera%C3%A7%C3%A3o+Itu+SP" target="_blank" class="inline-flex items-center gap-3 bg-white px-6 py-3 rounded-full border border-slate-200 shadow-sm hover:shadow-md transition-shadow text-slate-700 font-medium text-sm">
+                    <i class="fa-brands fa-google text-red-500 text-lg"></i>
+                    <span>Ver todas as <strong>33 avaliações no Google</strong></span>
+                    <i class="fa-solid fa-arrow-up-right-from-square text-xs text-slate-400"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacao" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Details Box -->
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Onde Estamos & Onde Atendemos
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                        Atendimento prioritário em Itu e Região
+                    </h2>
+                    <p class="text-slate-600 text-sm leading-relaxed">
+                        Nossa sede está localizada em Itu, o que nos permite atender rapidamente diversos bairros da cidade e municípios adjacentes.
+                    </p>
+
+                    <div class="space-y-4 pt-2">
+                        <!-- Address -->
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Endereço</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">
+                                    Rua Antonio Ribeiro de Camargo Penteado, 280<br>
+                                    Jardim Aeroporto, Itu - SP, 13304-710
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Phone -->
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Telefone / WhatsApp</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">
+                                    <a href="tel:15998192331" class="hover:text-brand-600 font-bold text-slate-800">(15) 99819-2331</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Hours -->
+                        <div class="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                            <div class="w-10 h-10 rounded-xl bg-brand-500 text-white flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-sm">Horário de Funcionamento</h4>
+                                <p class="text-xs text-slate-600 mt-0.5">
+                                    Segunda a Sexta: 08:00 às 18:00<br>
+                                    Sábado: 08:00 às 12:00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Routes Button -->
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Rua+Antonio+Ribeiro+de+Camargo+Penteado,+280+-+Jardim+aeroporto,+Itu+-+SP,+13304-710" 
+                       target="_blank" 
+                       class="inline-flex items-center justify-center gap-2 w-full bg-slate-900 hover:bg-slate-800 text-white font-bold px-6 py-3.5 rounded-xl text-sm transition-colors shadow-md">
+                        <i class="fa-solid fa-diamond-turn-right text-brand-400"></i>
+                        <span>Traçar Rota no Google Maps</span>
+                    </a>
+                </div>
+
+                <!-- Right Map / Area Coverage Column -->
+                <div class="lg:col-span-7">
+                    <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-lg border border-slate-200 h-96 relative">
+                        <!-- Embedded Google Map -->
+                        <iframe 
+                            title="Mapa de Localização da Bem Gelar Refrigeração em Itu - SP" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.029864228385!2d-47.306024!3d-23.26027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf5aa15f01111%3A0x1000000000000000!2sRua%20Antonio%20Ribeiro%20de%20Camargo%20Penteado%2C%20280%20-%20Jardim%20Aeroporto%2C%20Itu%20-%20SP%2C%2013304-710!5e0!3m2!1spt-BR!2sbr!4v1700000000000" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <!-- Cities list tags -->
+                    <div class="mt-4 flex flex-wrap items-center gap-2 text-xs text-slate-600">
+                        <span class="font-bold text-slate-800">Cidades e bairros de cobertura:</span>
+                        <span class="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">Itu (Todos os Bairros)</span>
+                        <span class="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">Jardim Aeroporto</span>
+                        <span class="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">Salto e Proximidades</span>
+                        <span class="bg-slate-100 px-2.5 py-1 rounded-md border border-slate-200">Condomínios Fechados</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <span class="bg-brand-100 text-brand-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Dúvidas Frequentes
+                </span>
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight mt-3">
+                    Perguntas Frequentes dos Clientes
+                </h2>
+            </div>
+
+            <div class="space-y-4" id="faq-accordion">
+                
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+                    <button class="faq-btn w-full text-left p-5 font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+                        <span>É realmente necessário levar a minha geladeira até a oficina?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                        Não! Um dos nossos maiores diferenciais é atender e executar todo o serviço na sua própria residência, sem retirar os eletrodomésticos. Isso evita custos extras com frete e riscos de danificar o aparelho no transporte.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+                    <button class="faq-btn w-full text-left p-5 font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+                        <span>Quais eletrodomésticos vocês consertam?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                        Atendemos geladeiras (Frost Free e convencionais), máquinas de lavar roupas, lava e seca, freezers horizontais e verticais, expositoras de bebidas, cervejeiras, adegas climatizadas e micro-ondas.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+                    <button class="faq-btn w-full text-left p-5 font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+                        <span>Como funciona o agendamento da visita técnica?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                        Basta entrar em contato pelo WhatsApp (15) 99819-2331. Vamos solicitar a descrição do defeito e a marca do aparelho para agendarmos o melhor horário para o atendimento no local.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden">
+                    <button class="faq-btn w-full text-left p-5 font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+                        <span>Vocês atendem apenas a cidade de Itu?</span>
+                        <i class="fa-solid fa-chevron-down text-brand-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-content hidden px-5 pb-5 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                        Atendemos Itu e as cidades/regiões vizinhas. Entre em contato para confirmar a disponibilidade do técnico para a sua localização exata.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-gradient-to-br from-brand-900 via-sky-900 to-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-6 space-y-6">
+                    <span class="bg-white/10 text-brand-300 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                        Atendimento Imediato
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                        Precisa consertar seu eletrodoméstico hoje?
+                    </h2>
+                    <p class="text-brand-100 text-base leading-relaxed">
+                        Fale diretamente com nossa equipe. Resposta rápida pelo WhatsApp ou por ligação telefônica.
+                    </p>
+
+                    <div class="space-y-4 pt-4">
+                        <a href="https://wa.me/5515998192331?text=Olá!%20Gostaria%20de%20agendar%20um%20orçamento." 
+                           target="_blank" 
+                           class="flex items-center gap-4 p-4 rounded-2xl bg-emerald-500 hover:bg-emerald-600 transition-colors text-white font-bold shadow-lg">
+                            <i class="fa-brands fa-whatsapp text-3xl"></i>
+                            <div>
+                                <div class="text-xs uppercase tracking-wider opacity-80">WhatsApp Direto</div>
+                                <div class="text-lg">(15) 99819-2331</div>
+                            </div>
+                        </a>
+
+                        <a href="tel:15998192331" 
+                           class="flex items-center gap-4 p-4 rounded-2xl bg-white/10 hover:bg-white/20 transition-colors text-white font-bold">
+                            <i class="fa-solid fa-phone text-3xl text-brand-300"></i>
+                            <div>
+                                <div class="text-xs uppercase tracking-wider text-brand-200">Atendimento Telefônico</div>
+                                <div class="text-lg">(15) 99819-2331</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Interactive Budget Message Generator -->
+                <div class="lg:col-span-6 bg-white text-slate-900 rounded-3xl p-6 sm:p-8 shadow-2xl">
+                    <h3 class="text-xl font-bold mb-2 text-brand-950">Solicitação Rápida de Orçamento</h3>
+                    <p class="text-xs text-slate-500 mb-6">Preencha abaixo para gerar uma mensagem pronta no WhatsApp:</p>
+
+                    <form id="whatsapp-generator" class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Qual é o seu nome?</label>
+                            <input type="text" id="client-name" placeholder="Ex: Maria Silva" required class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Selecione o Eletrodoméstico</label>
+                            <select id="appliance-type" class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500">
+                                <option value="Geladeira">Geladeira / Refrigerador</option>
+                                <option value="Máquina de Lavar">Máquina de Lavar</option>
+                                <option value="Lava e Seca">Lava e Seca</option>
+                                <option value="Freezer">Freezer</option>
+                                <option value="Cervejeira / Expositora">Cervejeira / Expositora</option>
+                                <option value="Adega">Adega Climatizada</option>
+                                <option value="Micro-ondas">Micro-ondas</option>
+                                <option value="Outro Eletrodoméstico">Outro Eletrodoméstico</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Descreva brevemente o problema</label>
+                            <textarea id="issue-description" rows="3" placeholder="Ex: A geladeira parou de gelar na parte de baixo e está fazendo barulho." class="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-sm">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Enviar via WhatsApp Agora</span>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 pb-12 border-b border-slate-800">
+                
+                <!-- Col 1 -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2 text-white font-extrabold text-lg">
+                        <i class="fa-solid fa-snowflake text-brand-400"></i> BEM GELAR
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Assistência técnica especializada em eletrodomésticos de refrigeração e linha branca em Itu e região. Atendimento no local.
+                    </p>
+                    <div class="flex text-amber-400 text-xs gap-1">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-white ml-2 font-bold">5.0 no Google</span>
+                    </div>
+                </div>
+
+                <!-- Col 2 -->
+                <div>
+                    <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-xs">Navegação</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#sobre" class="hover:text-brand-400 transition-colors">Sobre Nós</a></li>
+                        <li><a href="#diferenciais" class="hover:text-brand-400 transition-colors">Diferenciais</a></li>
+                        <li><a href="#servicos" class="hover:text-brand-400 transition-colors">Eletrodomésticos</a></li>
+                        <li><a href="#depoimentos" class="hover:text-brand-400 transition-colors">Depoimentos</a></li>
+                        <li><a href="#localizacao" class="hover:text-brand-400 transition-colors">Localização</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <div>
+                    <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-xs">Serviços Principais</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li>Conserto de Geladeiras em Itu</li>
+                        <li>Manutenção de Lava e Seca</li>
+                        <li>Conserto de Máquina de Lavar</li>
+                        <li>Reparo de Freezers e Cervejeiras</li>
+                        <li>Assistência de Adegas e Micro-ondas</li>
+                    </ul>
+                </div>
+
+                <!-- Col 4 -->
+                <div>
+                    <h4 class="text-white font-bold mb-3 uppercase tracking-wider text-xs">Contato Rápido</h4>
+                    <p class="text-xs text-slate-300">Rua Antonio Ribeiro de Camargo Penteado, 280 - Jd. Aeroporto, Itu - SP</p>
+                    <p class="text-xs text-brand-400 font-bold mt-2">(15) 99819-2331</p>
+                </div>
+
+            </div>
+
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <p>&copy; <span id="year"></span> Bem Gelar Refrigeração. Todos os direitos reservados.</p>
+                <p>Assistência Técnica de Eletrodomésticos em Itu - SP</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5515998192331?text=Olá!%20Vim%20pelo%20site%20da%20Bem%20Gelar%20e%20preciso%20de%20atendimento." 
+       target="_blank" 
+       aria-label="Falar no WhatsApp" 
+       class="fixed bottom-6 right-6 z-50 bg-emerald-500 hover:bg-emerald-600 text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl pulse-whatsapp transition-transform hover:scale-110">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Set dynamic year in footer
+        document.getElementById('year').innerText = new Date().getFullYear();
+
+        // Mobile Menu Toggle Logic
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // FAQ Accordion Toggle
+        const faqButtons = document.querySelectorAll('.faq-btn');
+
+        faqButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const content = btn.nextElementSibling;
+                const icon = btn.querySelector('i');
+
+                // Toggle visibility
+                content.classList.toggle('hidden');
+
+                // Rotate arrow icon
+                if (content.classList.contains('hidden')) {
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Interactive WhatsApp Message Builder
+        const waForm = document.getElementById('whatsapp-generator');
+        
+        waForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const name = document.getElementById('client-name').value.trim();
+            const appliance = document.getElementById('appliance-type').value;
+            const issue = document.getElementById('issue-description').value.trim();
+
+            let message = `Olá! Meu nome é *${name}*.\n`;
+            message += `Gostaria de solicitar um orçamento para conserto de *${appliance}*.\n`;
+            if (issue) {
+                message += `*Problema relatado:* ${issue}\n`;
+            }
+            message += `Vocês atendem na minha região?`;
+
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappURL = `https://wa.me/5515998192331?text=${encodedMessage}`;
+
+            window.open(whatsappURL, '_blank');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101018">
+  <meta name="description" content="Assistência técnica de refrigeração e linha branca em Itu e região. Fale com a Bem Gelar e solicite uma visita técnica.">
+  <title>Bem Gelar Refrigeração | Assistência técnica em Itu</title>
+  <link rel="preload" href="assets/barlow-600.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="nav">
+    <div class="container nav__inner">
+      <div class="nav__group"><span class="t3">Itu e região, SP</span><a class="t3" href="tel:+5515998192331">(15) 99819-2331</a></div>
+      <div class="nav__group"><span class="t3">Atendimento no local</span><span class="t3 nav__hours">Seg–Sex: 08h–18h</span></div>
+    </div>
+  </div>
+  <header class="nav2" id="inicio">
+    <div class="container nav2__inner">
+      <a class="brand" href="#inicio" aria-label="Bem Gelar — início"><span class="brand__name">BEM GELAR<span class="brand__dot">.</span></span><span class="brand__caption">REFRIGERAÇÃO & ASSISTÊNCIA</span></a>
+      <button class="menu-toggle btn3" id="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false">Menu</button>
+      <nav class="navigation" id="navigation" aria-label="Navegação principal">
+        <a class="btn" href="#inicio" aria-current="page">Início</a>
+        <a class="lnk" href="#sobre">Sobre nós</a>
+        <a class="lnk" href="#servicos">Serviços</a>
+        <a class="lnk" href="#localizacao">Localização</a>
+        <a class="lnk" href="#orcamento">Contato</a>
+      </nav>
+      <a class="btn2 nav2__contact" href="https://wa.me/5515998192331" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <p class="t1 eyebrow">Seu conforto em boas mãos</p>
+        <h1 class="h1" id="hero-title">Especialistas em <em>refrigeração</em><br>e soluções para <em>sua casa.</em></h1>
+        <p class="t2 hero__description">Assistência técnica em Itu e região. Cuidamos do seu eletrodoméstico no local, com a praticidade que sua rotina precisa.</p>
+        <div class="actions"><a class="btn2" href="#orcamento">Agendar visita</a><a class="btn3" href="#sobre">Saiba mais <span aria-hidden="true">⟶</span></a></div>
+      </div>
+    </section>
+    <div class="benefits container" aria-label="Diferenciais da Bem Gelar">
+      <article class="card"><h2 class="h3">Experiência & cuidado</h2><p class="t2">Diagnóstico preciso e cuidado com seu aparelho.</p></article>
+      <article class="card2"><h2 class="h3">Atendimento no local</h2><p class="t2">Mais praticidade, sem precisar transportar seu aparelho.</p></article>
+      <article class="card"><h2 class="h3">Orçamento transparente</h2><p class="t2">Serviço explicado antes de aprovar o reparo.</p></article>
+    </div>
+    <section class="section" id="sobre" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="t1 eyebrow">Quem somos</p>
+          <h2 class="h2" id="about-title">Assistência técnica em que<br>você pode confiar.</h2>
+          <p class="t2 about-copy__text">A Bem Gelar cuida dos aparelhos que fazem parte da sua rotina. Realizamos diagnóstico e manutenção em sua residência, com atendimento próximo e soluções para refrigeração e linha branca.</p>
+          <p class="t3 commitment">Cuidado em cada atendimento</p>
+          <div class="commitment__line" aria-hidden="true"></div>
+          <div class="qualities">
+            <div class="card3"><span class="icon-slot" aria-hidden="true"><img src="assets/icon-equipe.svg" alt="" width="28" height="28"></span><p class="t1">Atendimento<br>especializado</p></div>
+            <div class="card3"><span class="icon-slot" aria-hidden="true"><img src="assets/icon-protecao.svg" alt="" width="28" height="28"></span><p class="t1">Cuidado com<br>seu aparelho</p></div>
+          </div>
+          <div class="actions about-actions"><a class="btn2" href="#servicos">Saiba mais</a><a class="phone" href="tel:+5515998192331">(15) 99819-2331</a></div>
+        </div>
+        <div class="media"><img class="technician-image" src="assets/tecnico.png" alt="Imagem ilustrativa de técnico de refrigeração de uniforme azul e amarelo" width="1024" height="1536" loading="lazy" decoding="async"></div>
+        <form class="form" id="orcamento" aria-label="Solicitar uma visita pelo WhatsApp">
+          <label class="t3" for="client-name">Nome</label>
+          <input class="in" id="client-name" name="name" placeholder="Seu nome" autocomplete="name" maxlength="100" required>
+          <label class="t3" for="appliance-type">Eletrodoméstico</label>
+          <select class="in" id="appliance-type" name="appliance" required>
+            <option value="" disabled selected>Selecione o aparelho</option>
+            <option>Geladeira / Refrigerador</option><option>Máquina de lavar</option><option>Lava e seca</option><option>Freezer</option><option>Cervejeira / Expositora</option><option>Adega climatizada</option><option>Micro-ondas</option><option>Outro eletrodoméstico</option>
+          </select>
+          <label class="t3" for="issue-description">Mensagem</label>
+          <textarea class="in" id="issue-description" name="issue" rows="4" maxlength="1500" placeholder="Conte o que aconteceu com seu aparelho"></textarea>
+          <button class="btn2" type="submit">Solicitar pelo WhatsApp</button>
+          <p class="t3 form__note">Você poderá revisar a mensagem no WhatsApp antes de enviá-la.</p>
+        </form>
+      </div>
+    </section>
+    <section class="section2" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services-heading"><div><p class="t1 eyebrow">Nossos serviços</p><h2 class="h2" id="services-title">Cuidado <em>especializado</em>.<br><em>Soluções</em> para seu aparelho.</h2></div><p class="t2">Manutenção e conserto de diferentes marcas e modelos. Conheça os aparelhos atendidos e agende uma avaliação.</p></div>
+        <div class="services-grid">
+          <article class="card4"><div class="service-image"><img src="assets/geladeira.png" alt="Imagem ilustrativa de manutenção em geladeira doméstica" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-geladeira.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Geladeiras & refrigeradores</h3><p class="t2">Diagnóstico e reparo de modelos convencionais e Frost Free.</p><a class="btn3" href="#orcamento" data-appliance="Geladeira / Refrigerador" aria-label="Solicitar atendimento para geladeira">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+          <article class="card4"><div class="service-image"><img src="assets/lavadora.png" alt="Imagem ilustrativa de inspeção de máquina de lavar com abertura superior" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-lavadora.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Máquinas de lavar</h3><p class="t2">Cuidados com a lavagem, centrifugação e funcionamento da máquina.</p><a class="btn3" href="#orcamento" data-appliance="Máquina de lavar" aria-label="Solicitar atendimento para máquina de lavar">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+          <article class="card4"><div class="service-image"><img src="assets/lava-seca.png" alt="Imagem ilustrativa de manutenção em lava e seca frontal" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-lava-seca.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Lava e seca</h3><p class="t2">Assistência para recuperar a praticidade de lavar e secar.</p><a class="btn3" href="#orcamento" data-appliance="Lava e seca" aria-label="Solicitar atendimento para lava e seca">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+          <article class="card4"><div class="service-image"><img src="assets/freezer.png" alt="Imagem ilustrativa de inspeção de freezer horizontal" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-freezer.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Freezers</h3><p class="t2">Manutenção em modelos horizontais e verticais.</p><a class="btn3" href="#orcamento" data-appliance="Freezer" aria-label="Solicitar atendimento para freezer">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+          <article class="card4"><div class="service-image"><img src="assets/cervejeira.png" alt="Imagem ilustrativa de cervejeira com porta de vidro" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-cervejeira.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Cervejeiras & expositoras</h3><p class="t2">Refrigeração para suas bebidas, em casa ou no comércio.</p><a class="btn3" href="#orcamento" data-appliance="Cervejeira / Expositora" aria-label="Solicitar atendimento para cervejeira">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+          <article class="card4"><div class="service-image"><img src="assets/adega-microondas.png" alt="Imagem ilustrativa de adega climatizada e micro-ondas" width="1536" height="1024" loading="lazy" decoding="async"></div><span class="service-icon" aria-hidden="true"><img src="assets/icon-adega.svg" alt="" width="28" height="28"></span><div class="card5"><h3 class="h3">Adegas & micro-ondas</h3><p class="t2">Avaliação e reparo dos equipamentos que completam sua casa.</p><a class="btn3" href="#orcamento" data-appliance="" aria-label="Solicitar atendimento para adega ou micro-ondas">Saiba mais <span aria-hidden="true">⟶</span></a></div></article>
+        </div>
+      </div>
+    </section>
+    <section class="location" id="localizacao" aria-labelledby="location-title">
+      <div class="container location__grid">
+        <div class="location__content">
+          <p class="t1 eyebrow">Onde estamos</p>
+          <h2 class="h2" id="location-title">Perto de você.<br>Em <em>Itu e região.</em></h2>
+          <p class="t2 location__intro">Conte com a Bem Gelar para cuidar do seu eletrodoméstico. Consulte nossa localização e fale com a equipe para agendar seu atendimento.</p>
+          <address class="location__address">
+            <span class="location__label">Nosso endereço</span>
+            Rua Antonio Ribeiro de Camargo Penteado, 280<br>
+            Jardim Aeroporto · Itu, SP<br>
+            CEP 13304-710
+          </address>
+          <div class="location__hours">
+            <h3 class="location__label">Horário de atendimento</h3>
+            <p class="t2">Segunda a sexta: 08h às 18h<br>Sábado: 08h às 12h</p>
+          </div>
+          <div class="actions location__actions">
+            <a class="btn2" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Antonio+Ribeiro+de+Camargo+Penteado,+280,+Jardim+Aeroporto,+Itu,+SP,+13304-710" target="_blank" rel="noopener noreferrer">Traçar rota <span aria-hidden="true">↗</span></a>
+            <a class="phone" href="tel:+5515998192331">(15) 99819-2331</a>
+          </div>
+        </div>
+        <div class="location__map">
+          <iframe
+            title="Google Maps — endereço da Bem Gelar Refrigeração em Itu"
+            src="https://maps.google.com/maps?q=Rua+Antonio+Ribeiro+de+Camargo+Penteado,+280,+Jardim+Aeroporto,+Itu,+SP,+13304-710&amp;z=16&amp;output=embed&amp;hl=pt-BR"
+            width="640"
+            height="470"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+          <p class="t3 location__map-caption">Bem Gelar Refrigeração · Jardim Aeroporto, Itu</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="#inicio" aria-label="Bem Gelar — voltar ao início"><span class="brand__name">BEM GELAR<span class="brand__dot">.</span></span><span class="brand__caption">REFRIGERAÇÃO & ASSISTÊNCIA</span></a>
+          <p>Assistência técnica em refrigeração e linha branca. Cuidado com seu aparelho, no conforto da sua casa.</p>
+          <a class="btn2" href="https://wa.me/5515998192331" target="_blank" rel="noopener noreferrer">Falar no WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+        <nav class="footer__nav" aria-labelledby="footer-nav-title">
+          <h2 class="footer__title" id="footer-nav-title">Explore</h2>
+          <ul class="footer__links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre a Bem Gelar</a></li>
+            <li><a href="#servicos">Nossos serviços</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><a href="#orcamento">Solicitar visita</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contact">
+          <h2 class="footer__title">Onde estamos</h2>
+          <address>Rua Antonio Ribeiro de Camargo Penteado, 280<br>Jardim Aeroporto · Itu, SP<br>CEP 13304-710</address>
+          <a class="footer__phone" href="tel:+5515998192331">(15) 99819-2331</a>
+          <a class="footer__map-link" href="#localizacao">Ver no mapa <span aria-hidden="true">⟶</span></a>
+        </div>
+        <div class="footer__hours">
+          <h2 class="footer__title">Atendimento</h2>
+          <dl>
+            <dt>Segunda a sexta</dt><dd>08h às 18h</dd>
+            <dt>Sábado</dt><dd>08h às 12h</dd>
+          </dl>
+          <p>Itu e região.<br>Consulte a disponibilidade para seu endereço.</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span id="footer-year">2026</span> Bem Gelar Refrigeração. Todos os direitos reservados.</p>
+        <a href="#inicio">Voltar ao topo <span aria-hidden="true">↑</span></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+

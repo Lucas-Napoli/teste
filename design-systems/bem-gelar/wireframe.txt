@@ -1,0 +1,76 @@
+﻿+------------------------------------------------------------------------------------------------+
+| nav                                                                                            |
+| [t3: Itu e região] [lnk: (15) 99819-2331]       [t3: Atendimento no local | Seg-sex: 08h-18h]        |
++------------------------------------------------------------------------------------------------+
+| nav2                                                                                           |
+| [ico: floco de neve] [h3: BEM GELAR]     [btn: Início] [lnk: Sobre] [lnk: Serviços] [lnk: Contato] |
+| [t3: Refrigeração & assistência]                                     [btn2: [ico: WhatsApp]]     |
++------------------------------------------------------------------------------------------------+
+| hero                                                                                           |
+| [img: fundo fotográfico de manutenção em refrigeração, escurecido]                               |
+|                                                                                                |
+| [t1: SEU CONFORTO EM BOAS MÃOS]                                                                  |
+| [h1: Especialistas em refrigeração]                                                              |
+| [h1: e soluções para sua casa.]                                                                 |
+| [t2: Assistência técnica em Itu e região, sem retirar seu eletrodoméstico.]                       |
+| [btn2: AGENDAR VISITA] [btn3: SAIBA MAIS [ico: seta]]                                              |
+|                                                                                                |
+|              +---------------------+ +-----------------------+ +---------------------+         |
+|              | card                | | card2                 | | card                |         |
+|              | [h3: Experiência]   | | [h3: Serviço no local] | | [h3: Transparência] |         |
++--------------| [t2: Cuidado com    | | [t2: Praticidade para  | | [t2: Orçamento     |---------+
+               | seu aparelho.]      | | a sua rotina.]         | | antes do reparo.]   |
+               +---------------------+ +-----------------------+ +---------------------+
++------------------------------------------------------------------------------------------------+
+| section                                                                                        |
+|                                                                                                |
+| [t1: QUEM SOMOS]                                                                                |
+| [h2: Assistência técnica em que]                     +--------------------------------------+   |
+| [h2: você pode confiar.]          +----------------+ | form                                 |   |
+| [t2: Diagnóstico e manutenção     | media          | | [t3: Nome]                           |   |
+| em sua residência, com cuidado    | [img: técnico  | | [in: Seu nome]                       |   |
+| e atendimento próximo.]           | de refrigeração| | [t3: Eletrodoméstico]                |   |
+|                                  | recortado, sem | | [in: Selecione o aparelho]           |   |
+| [t3: Cuidado em cada atendimento] | fundo]         | | [t3: Mensagem]                       |   |
+| +---------------+ +------------+ |                | | [in: Descreva o problema]            |   |
+| | card3         | | card3      | |                | |                                      |   |
+| | [ico: equipe] | | [ico:      | |                | | [btn2: SOLICITAR PELO WHATSAPP]      |   |
+| | [t1: Equipe   | | proteção]  | |                | | [t3: Revise e envie no WhatsApp.]    |   |
+| | especializada]| | [t1:       | +----------------+ +--------------------------------------+   |
+| |               | | Cuidado]   |                                                               |
+| +---------------+ +------------+                                                               |
+| [btn2: SAIBA MAIS] [lnk: (15) 99819-2331]                                                        |
+|                                                                                                |
++------------------------------------------------------------------------------------------------+
+| section2                                                                                       |
+| [t1: NOSSOS SERVIÇOS]                                                                           |
+| [h2: O cuidado que seu aparelho precisa.]      [t2: Manutenção e conserto de diferentes marcas    |
+| [h2: A solução que você procura.]              e modelos. Agende uma avaliação.]                |
+|                                                                                                |
+| +----------------------------+ +----------------------------+ +-----------------------------+   |
+| | card4                      | | card4                      | | card4                       |   |
+| | [img: geladeira]           | | [img: máquina de lavar]    | | [img: lava e seca]          |   |
+| | [ico: refrigeração]        | | [ico: lavagem]             | | [ico: secagem]              |   |
+| | +------------------------+ | | +------------------------+ | | +-------------------------+ |   |
+| | | card5                  | | | | card5                  | | | | card5                   | |   |
+| | | [h3: Geladeiras]       | | | | [h3: Máquinas de lavar]| | | | [h3: Lava e seca]       | |   |
+| | | [t2: Reparo e          | | | | [t2: Manutenção e     | | | | [t2: Cuidado com a      | |   |
+| | | manutenção.]           | | | | conserto.]             | | | | lavagem e secagem.]     | |   |
+| | | [btn3: SAIBA MAIS]     | | | | [btn3: SAIBA MAIS]     | | | | [btn3: SAIBA MAIS]      | |   |
+| | +------------------------+ | | +------------------------+ | | +-------------------------+ |   |
+| +----------------------------+ +----------------------------+ +-----------------------------+   |
+|                                                                                                |
+| +----------------------------+ +----------------------------+ +-----------------------------+   |
+| | card4                      | | card4                      | | card4                       |   |
+| | [img: freezer]            | | [img: cervejeira]          | | [img: adega e micro-ondas]  |   |
+| | [ico: temperatura]        | | [ico: bebidas]             | | [ico: assistência]          |   |
+| | +------------------------+ | | +------------------------+ | | +-------------------------+ |   |
+| | | card5                  | | | | card5                  | | | | card5                   | |   |
+| | | [h3: Freezers]         | | | | [h3: Cervejeiras &     | | | | [h3: Adegas &           | |   |
+| | | [t2: Modelos verticais | | | | expositoras]            | | | | micro-ondas]            | |   |
+| | | e horizontais.]        | | | | [t2: Bebidas na        | | | | [t2: Avaliação e        | |   |
+| | | [btn3: SAIBA MAIS]     | | | | temperatura certa.]    | | | | reparo especializado.]  | |   |
+| | |                        | | | | [btn3: SAIBA MAIS]     | | | | [btn3: SAIBA MAIS]      | |   |
+| | +------------------------+ | | +------------------------+ | | +-------------------------+ |   |
+| +----------------------------+ +----------------------------+ +-----------------------------+   |
++------------------------------------------------------------------------------------------------+
